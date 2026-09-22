@@ -10,7 +10,7 @@ export default function Header({ menuOpen, setMenuOpen }) {
           <img
             src="/source-assets/image2.png"
             alt="Braided Borders"
-            className="h-20 w-auto object-contain"
+            className="h-20 w-auto object-contain mix-blend-screen"
           />
           <span className="hidden text-mono text-[10px] uppercase tracking-[0.16em] sm:block">
             Braided Borders

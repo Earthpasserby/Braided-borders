@@ -25,11 +25,11 @@ export default function ServicesSection() {
           </div>
         </div>
 
-        <div className="grid border-t border-white/20 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4 lg:gap-4">
           {capabilities.map((capability, index) => (
             <div
               key={capability}
-              className="african-card border-b border-white/20 px-0 py-6 transition-all duration-300 hover:-translate-y-1 hover:border-brand-sand/60 hover:bg-white/5 sm:even:border-l sm:even:pl-6 lg:border-l lg:px-6 lg:first:border-l-0 lg:first:pl-0"
+              className="african-card min-h-32 rounded-2xl border border-white/15 bg-white/[0.04] p-5 transition-all duration-300 hover:-translate-y-1 hover:border-brand-sand/60 hover:bg-white/5 sm:p-6"
             >
               <span className="text-mono text-[10px] text-brand-sand">
                 0{index + 1}
@@ -43,7 +43,7 @@ export default function ServicesSection() {
           <p className="text-mono text-[10px] uppercase tracking-[0.2em] text-brand-blue">
             Startup services
           </p>
-          <div className="mt-7 grid gap-4 md:grid-cols-3">
+          <div className="mt-7 grid gap-3 md:grid-cols-3 md:gap-4">
             {startupServices.map((service, index) => (
               <div
                 key={service}
