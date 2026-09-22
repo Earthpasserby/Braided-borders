@@ -24,9 +24,9 @@ export default function HeroSection() {
             Local context for global capital
           </p>
           <h1 className="text-display max-w-5xl text-[clamp(4rem,9vw,9rem)] leading-[0.83] tracking-[-0.06em] text-white">
-            Better decisions
+            De-risking Capital
             <br />
-            <em>across Africa & MENA.</em>
+            <em>Across Africa & MENA.</em>
           </h1>
           <p className="mt-9 max-w-xl text-lg leading-7 text-white/75 md:text-xl">
             Braided Borders helps investors and founders understand the market,
