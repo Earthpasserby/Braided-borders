@@ -10,17 +10,17 @@ export default function ServicesSection() {
       <div className="relative mx-auto max-w-[1200px]">
         <div className="mb-14 grid gap-8 md:grid-cols-[0.7fr_1.3fr]">
           <p className="text-mono text-[10px] uppercase tracking-[0.2em] text-brand-blue">
-            End-to-end fund enablement
+            What we help with
           </p>
           <div className="animate-rise">
             <h2 className="text-display text-5xl leading-[0.95] tracking-[-0.04em] md:text-7xl">
-              The specialist partner
+              Useful work
               <br />
-              <em>from diligence to exit.</em>
+              <em>at every stage.</em>
             </h2>
             <p className="mt-7 max-w-2xl text-lg leading-8 text-white/65">
-              Dedicated local operational infrastructure for global capital,
-              across both regions and every stage of the fund lifecycle.
+              We work alongside investment teams, portfolio companies, and
+              founders when regional knowledge and follow-through matter most.
             </p>
           </div>
         </div>
@@ -41,7 +41,7 @@ export default function ServicesSection() {
 
         <div className="mt-16 border-t border-white/20 pt-8">
           <p className="text-mono text-[10px] uppercase tracking-[0.2em] text-brand-blue">
-            Startup services
+            For founders and teams
           </p>
           <div className="mt-7 grid gap-3 md:grid-cols-3 md:gap-4">
             {startupServices.map((service, index) => (

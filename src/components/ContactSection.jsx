@@ -6,16 +6,17 @@ export default function ContactSection() {
       <div className="mx-auto grid max-w-[1200px] gap-12 md:grid-cols-[1.2fr_0.8fr] md:items-end">
         <div>
           <p className="text-mono text-[10px] uppercase tracking-[0.2em] text-brand-blue">
-            Market access specialists
+            Start with a conversation
           </p>
           <h2 className="text-display mt-5 max-w-3xl text-5xl leading-[0.9] tracking-[-0.05em] md:text-7xl">
-            Your execution arm
+            A clearer view of the market
             <br />
-            <em>on the ground.</em>
+            <em>starts here.</em>
           </h2>
           <p className="mt-8 max-w-xl text-lg leading-8 text-brand-ink/70">
-            We deliver the on-the-ground intelligence and institutional access
-            required to scale seamlessly across the MEA region.
+            Tell us what you are assessing, building, or trying to solve. We
+            will bring the relevant regional context and be clear about where
+            we can help.
           </p>
         </div>
 

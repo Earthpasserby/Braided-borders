@@ -13,18 +13,19 @@ export default function ModelSection() {
         <div className="mb-14 flex flex-col justify-between gap-7 md:flex-row md:items-end">
           <div className="animate-rise">
             <p className="text-mono text-[10px] uppercase tracking-[0.2em] text-white/70">
-              Operational methodology
+              How we work
             </p>
             <h2 className="text-display mt-5 text-5xl leading-[0.9] tracking-[-0.05em] md:text-7xl">
-              The “sleeves-up”
+              Close to the work,
               <br />
-              <em>braided model.</em>
+              <em>clear about the detail.</em>
             </h2>
           </div>
 
           <p className="max-w-sm text-base leading-7 text-white/75">
-            Three distinct layers of the fund lifecycle. Domain expertise,
-            professional services, and active growth in one execution arm.
+            The work changes from one mandate to the next, but our approach is
+            consistent: understand the local context, make the right
+            introductions, and stay involved long enough to be useful.
           </p>
         </div>
 

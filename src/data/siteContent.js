@@ -1,43 +1,43 @@
 export const capabilities = [
-  "Market validation",
-  "Regulatory mapping",
-  "Founder vetting",
-  "Distribution analysis",
-  "Operational governance",
-  "Strategic access",
-  "Commercial braiding",
-  "Bridge & exit planning",
+  "Market and customer research",
+  "Regulatory and licensing review",
+  "Founder and team assessment",
+  "Distribution and partner mapping",
+  "Operating model review",
+  "Introductions to local stakeholders",
+  "Commercial planning",
+  "Exit and transition planning",
 ];
 
 export const phases = [
   {
     number: "01",
-    title: "Pre-Deal Intelligence",
-    text: "Fractional due diligence translating local realities into Western metrics.",
+    title: "Before the deal",
+    text: "Practical diligence that gives an investment team a clearer view of the market, risks, and people involved.",
     items: [
-      "True TAM valuation",
-      "Regulatory audits",
-      "Village-level background checks",
+      "Market sizing and customer interviews",
+      "Regulatory and licensing checks",
+      "Management and reference checks",
     ],
   },
   {
     number: "02",
-    title: "Post-Deal Growth",
-    text: "Operational venture clienting as your active local execution arm.",
+    title: "After the deal",
+    text: "Hands-on support for portfolio companies entering a new market or building their first local partnerships.",
     items: [
-      "Corporate matching",
-      "Shadow COO support",
-      "Direct API integrations",
+      "Partner and customer introductions",
+      "Local operating support",
+      "Commercial pipeline development",
     ],
   },
   {
     number: "03",
-    title: "Ecosystem Access",
-    text: "Structural unfair advantage through proprietary network assets.",
+    title: "A stronger local network",
+    text: "Context and relationships that help international teams work with the right institutions, operators, and partners.",
     items: [
-      "Regulatory sandboxes",
-      "Distribution engine",
-      "Peer knowledge syncs",
+      "Public and private-sector contacts",
+      "Distribution partner mapping",
+      "Ongoing market feedback",
     ],
   },
 ];
@@ -52,15 +52,15 @@ export const networkRelationships = [
 ];
 
 export const startupServices = [
-  "Investor matching and introductions",
-  "Investment-readiness preparation",
-  "Exit strategy and preparation for startups and funds",
+  "Relevant investor introductions",
+  "Fundraising materials and preparation",
+  "Exit planning for founders and investors",
 ];
 
 export const clientTypes = [
-  "International VC Funds — deploying capital into Africa & MENA tech ecosystems.",
-  "Impact & Emerging Market Funds — seeking granular regional operational depth and risk control.",
-  "Institutional Investors — building long-term regional investment theses across emerging hubs.",
+  "International venture funds — assessing or supporting companies entering Africa and MENA.",
+  "Impact and emerging-market investors — looking for informed local diligence and practical risk control.",
+  "Institutional investors — building a regional thesis with better access to operators and market context.",
 ];
 
 export const founders = [

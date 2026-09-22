@@ -21,17 +21,17 @@ export default function HeroSection() {
       <div className="relative mx-auto grid w-full max-w-[1440px] gap-12 md:grid-cols-[1fr_0.48fr] md:items-end">
         <div className="max-w-[760px] animate-rise">
           <p className="text-mono mb-7 text-[10px] uppercase tracking-[0.22em] text-brand-sand">
-            Institutional bridge for MEA
+            Local context for global capital
           </p>
           <h1 className="text-display max-w-5xl text-[clamp(4rem,9vw,9rem)] leading-[0.83] tracking-[-0.06em] text-white">
-            De-risking capital
+            Better decisions
             <br />
             <em>across Africa & MENA.</em>
           </h1>
           <p className="mt-9 max-w-xl text-lg leading-7 text-white/75 md:text-xl">
-            Local intelligence, boots-on-ground execution, and operational
-            infrastructure for global investors in insurtech, fintech, and
-            healthtech.
+            Braided Borders helps investors and founders understand the market,
+            find the right local partners, and move from a promising deal to
+            practical execution in insurtech, fintech, and healthtech.
           </p>
 
           <div className="mt-10 flex flex-wrap items-center gap-4">
@@ -39,7 +39,7 @@ export default function HeroSection() {
               href="#challenge"
               className="inline-flex items-center gap-4 rounded-full bg-brand-blue px-5 py-3 text-mono text-[10px] uppercase tracking-[0.16em] shadow-[0_18px_35px_rgba(7,87,200,0.38)] transition-all duration-200 hover:-translate-y-0.5 hover:bg-white hover:text-brand-ink"
             >
-              See the opportunity <ArrowRight size={16} />
+              See how we work <ArrowRight size={16} />
             </a>
             <a
               href={linkedInUrl}
@@ -63,13 +63,13 @@ export default function HeroSection() {
             <p className="mt-5">
               Focus{" "}
               <strong className="block font-normal text-white">
-                Due diligence to exit
+                Research to execution
               </strong>
             </p>
             <p className="mt-5">
               Model{" "}
               <strong className="block font-normal text-white">
-                Local execution, global rationale
+                Local context, clear decisions
               </strong>
             </p>
           </div>

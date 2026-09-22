@@ -11,26 +11,26 @@ export default function ChallengeSection() {
 
         <div className="animate-rise">
           <h2 className="text-display text-5xl leading-[0.95] tracking-[-0.04em] md:text-7xl">
-            The execution gap
+            Distance changes
             <br />
-            <em>is the risk.</em>
+            <em>the details.</em>
           </h2>
           <p className="mt-8 max-w-2xl text-lg leading-8 text-brand-ink/70">
-            International investors deploying capital into Africa and MENA lack
-            boots-on-ground intelligence, regional operational networks, and
-            infrastructure to accurately de-risk deals and scale portfolio
-            ventures.
+            A strong deck rarely answers the practical questions that come up
+            on the ground. Who actually buys? Which approvals matter? Which
+            partner can open the next door? We help investment teams answer
+            those questions before they become expensive surprises.
           </p>
 
           <div className="mt-10 grid gap-5 border-t border-brand-ink/15 pt-5 text-mono text-[10px] uppercase tracking-[0.14em] sm:grid-cols-3">
             <span className="rounded-full border border-brand-ink/10 bg-white px-3 py-3 text-center shadow-sm">
-              Mispriced risk
+              Incomplete market context
             </span>
             <span className="rounded-full border border-brand-ink/10 bg-white px-3 py-3 text-center shadow-sm">
               Regulatory friction
             </span>
             <span className="rounded-full border border-brand-ink/10 bg-white px-3 py-3 text-center shadow-sm">
-              Slow venture traction
+              Hard-to-find local partners
             </span>
           </div>
         </div>
