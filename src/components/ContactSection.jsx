@@ -4,7 +4,7 @@ export default function ContactSection() {
   return (
     <section id="contact" className="px-6 py-20 md:px-12 md:py-28">
       <div className="mx-auto max-w-[1200px]">
-        <div className="section-shell rounded-[32px] p-6 md:p-10">
+        <div className="luxury-block rounded-[40px] p-6 md:p-10">
           <div className="grid gap-10 md:grid-cols-[1.2fr_0.8fr] md:items-end">
             <div>
               <p className="text-mono text-[10px] uppercase tracking-[0.2em] text-brand-blue">
@@ -22,7 +22,7 @@ export default function ContactSection() {
               </p>
             </div>
 
-            <div className="rounded-[26px] border border-brand-ink/10 bg-[#0b1d28] p-6 text-white">
+            <div className="rounded-[28px] border border-brand-ink/10 bg-[#0b1d28] p-6 text-white">
               <p className="text-mono text-[10px] uppercase tracking-[0.18em] text-brand-sand">
                 Reach out
               </p>

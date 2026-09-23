@@ -29,22 +29,22 @@ export default function ServicesSection() {
           {capabilities.map((capability, index) => (
             <article
               key={capability}
-              className="group editorial-card min-h-[220px] rounded-[26px] border border-white/15 bg-white/[0.04] p-5 transition-all duration-300 hover:-translate-y-2 hover:border-brand-sand/60 hover:bg-white/6 sm:p-6"
+              className="group min-h-[220px] rounded-[28px] border border-white/10 bg-[#0a1f2b] p-5 transition-all duration-300 hover:-translate-y-1 hover:border-brand-sand/50 hover:bg-[#102835] sm:p-6"
             >
               <div className="flex items-center justify-between">
                 <span className="text-mono text-[10px] text-brand-sand">
                   0{index + 1}
                 </span>
-                <span className="rounded-full border border-white/10 bg-white/5 p-2 text-white/60 transition-transform duration-300 group-hover:translate-x-1">
+                <span className="text-xl text-white/50 transition-transform duration-300 group-hover:translate-x-1">
                   →
                 </span>
               </div>
-              <p className="mt-10 text-lg leading-7 text-white">{capability}</p>
+              <p className="mt-10 text-lg leading-7 text-white/90">{capability}</p>
             </article>
           ))}
         </div>
 
-        <div className="mt-16 rounded-[28px] border border-white/10 bg-white/[0.03] p-6 md:p-8">
+        <div className="mt-16 rounded-[30px] border border-white/10 bg-[#081f27] p-6 md:p-8">
           <p className="text-mono text-[10px] uppercase tracking-[0.2em] text-brand-blue">
             For founders and teams
           </p>
@@ -52,12 +52,12 @@ export default function ServicesSection() {
             {startupServices.map((service, index) => (
               <div
                 key={service}
-                className="rounded-2xl border border-white/10 bg-[#081f27] p-5"
+                className="rounded-[22px] border border-white/10 bg-white/[0.02] p-5"
               >
                 <span className="text-mono text-xs text-white/50">
                   0{index + 1}
                 </span>
-                <p className="mt-10 text-lg leading-7 text-white">{service}</p>
+                <p className="mt-10 text-lg leading-7 text-white/90">{service}</p>
               </div>
             ))}
           </div>

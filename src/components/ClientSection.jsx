@@ -8,24 +8,24 @@ export default function ClientSection() {
   return (
     <section className="px-6 py-20 md:px-12 md:py-28">
       <div className="mx-auto max-w-[1200px]">
-        <div className="section-shell rounded-[32px] p-6 md:p-10">
-          <div className="grid gap-14 md:grid-cols-[0.65fr_1.35fr] md:gap-20">
+        <div className="luxury-block rounded-[40px] p-6 md:p-10">
+          <div className="grid gap-14 md:grid-cols-[0.72fr_1.28fr] md:gap-20">
             <div>
               <p className="text-mono text-[10px] uppercase tracking-[0.2em] text-brand-blue">
                 Who we serve
               </p>
-              <h2 className="text-display mt-5 text-5xl leading-[0.95] tracking-[-0.04em] md:text-6xl">
+              <h2 className="text-display mt-5 text-5xl leading-[0.9] tracking-[-0.04em] md:text-6xl">
                 Capital with
                 <br />
                 <em>ambition.</em>
               </h2>
             </div>
 
-            <div className="grid gap-0 border-t border-brand-ink/15">
+            <div className="muted-panel rounded-[26px]">
               {clientTypes.map((client, index) => (
                 <div
                   key={client}
-                  className="flex gap-6 border-b border-brand-ink/15 py-6"
+                  className="luxury-list-item flex gap-6 px-5 py-6 first:pt-5 last:pb-5 md:px-7"
                 >
                   <span className="text-mono text-xs text-brand-blue">
                     0{index + 1}
@@ -37,7 +37,7 @@ export default function ClientSection() {
           </div>
 
           <div className="mt-16 grid gap-8 md:grid-cols-2">
-            <div className="rounded-[24px] border border-brand-ink/10 bg-[#f7f3ee] p-6">
+            <div className="rounded-[28px] border border-brand-ink/10 bg-[#f6f0ea] p-6 md:p-7">
               <p className="text-mono text-[10px] uppercase tracking-[0.2em] text-brand-blue">
                 Core sector focus
               </p>
@@ -45,7 +45,7 @@ export default function ClientSection() {
                 {sectors.map((sector) => (
                   <span
                     key={sector}
-                    className="rounded-2xl border border-brand-ink/10 bg-white px-4 py-4 text-display text-2xl text-brand-ink"
+                    className="rounded-[20px] border border-brand-ink/10 bg-white px-4 py-4 text-display text-2xl text-brand-ink"
                   >
                     {sector}
                   </span>
@@ -53,7 +53,7 @@ export default function ClientSection() {
               </div>
             </div>
 
-            <div className="rounded-[24px] border border-brand-ink/10 bg-brand-ink p-6 text-white">
+            <div className="rounded-[28px] border border-brand-ink/10 bg-brand-ink p-6 text-white md:p-7">
               <p className="text-mono text-[10px] uppercase tracking-[0.2em] text-brand-sand">
                 Anchor network relationships
               </p>
@@ -61,7 +61,7 @@ export default function ClientSection() {
                 {networkRelationships.map((relationship) => (
                   <li
                     key={relationship}
-                    className="border-b border-white/10 pb-3 text-base text-white/80 last:border-b-0 last:pb-0"
+                    className="border-b border-white/10 pb-3 text-base text-white/78 last:border-b-0 last:pb-0"
                   >
                     {relationship}
                   </li>

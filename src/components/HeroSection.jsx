@@ -33,9 +33,9 @@ export default function HeroSection() {
             <p className="mb-6 text-mono text-[10px] uppercase tracking-[0.22em] text-brand-sand">
               Market access, grounded in reality
             </p>
-            <h1 className="text-display text-[clamp(4rem,7vw,8.5rem)] leading-[0.8] tracking-[-0.06em] text-white">
+            <h1 className="text-display text-[clamp(4rem,7vw,8.5rem)] leading-[0.78] tracking-[-0.06em] text-white">
               De-risking Capital
-              <span className="block text-brand-sand">Across Africa and Middle East</span>
+              <span className="mt-2 block text-brand-sand">Across Africa and Middle East</span>
             </h1>
             <p className="mt-8 max-w-xl text-lg leading-7 text-white/75 md:text-xl">
               Braided Borders helps investors and founders understand the market,
