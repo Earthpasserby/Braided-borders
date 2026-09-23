@@ -10,7 +10,7 @@ export default function Footer() {
             alt="Braided Borders"
             className="h-14 w-auto"
           />
-          <span className="text-mono text-[20px] uppercase tracking-[0.15em] text-white/50">
+          <span className="text-mono text-[15px] uppercase tracking-[0.15em] text-white/50">
             Braided Borders
           </span>
         </div>
