@@ -2,13 +2,13 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand-ink: #061f28;
-  --color-brand-blue: #0757c8;
-  --color-brand-gray: #9a9a9a;
+  --color-brand-ink: #0b202b;
+  --color-brand-blue: #2f6872;
+  --color-brand-gray: #7d8b8f;
   --color-brand-white: #ffffff;
-  --color-brand-sand: #e7c9a6;
-  --color-brand-warm: #c97343;
-  --color-brand-olive: #738c5b;
+  --color-brand-sand: #c7ad78;
+  --color-brand-warm: #a87558;
+  --color-brand-olive: #718277;
 }
 
 :root {
@@ -17,8 +17,8 @@
   background: #ffffff;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  --brand-glow: rgba(199, 115, 67, 0.28);
-  --brand-blue-glow: rgba(7, 87, 200, 0.25);
+  --brand-glow: rgba(199, 173, 120, 0.24);
+  --brand-blue-glow: rgba(47, 104, 114, 0.24);
 }
 
 * {
@@ -31,8 +31,8 @@ body {
   margin: 0;
   min-width: 320px;
   background:
-    radial-gradient(circle at top, rgba(231, 201, 166, 0.14), transparent 24%),
-    linear-gradient(180deg, #f4efe9 0%, #f7f5f2 28%, #eef1f2 100%);
+    radial-gradient(circle at top, rgba(199, 173, 120, 0.1), transparent 24%),
+    linear-gradient(180deg, #f1f4f3 0%, #f7f8f7 28%, #e9eff0 100%);
 }
 button,
 input {
@@ -75,10 +75,10 @@ input {
   background:
     radial-gradient(
       circle at top left,
-      rgba(231, 201, 166, 0.14),
+      rgba(199, 173, 120, 0.13),
       transparent 26%
     ),
-    linear-gradient(135deg, #071b25 0%, #0d2230 28%, #081d27 100%);
+    linear-gradient(135deg, #081c27 0%, #123640 46%, #0b202b 100%);
 }
 
 .hero-mesh {
@@ -101,7 +101,7 @@ input {
   background: linear-gradient(
     135deg,
     rgba(255, 255, 255, 0.96),
-    rgba(246, 240, 233, 0.96)
+    rgba(239, 244, 243, 0.96)
   );
   border: 1px solid rgba(6, 31, 40, 0.08);
   box-shadow: 0 18px 52px rgba(6, 31, 40, 0.04);
@@ -122,7 +122,7 @@ input {
 
 ::selection {
   color: #ffffff;
-  background: #0757c8;
+  background: #2f6872;
 }
 
 .text-display {
@@ -165,9 +165,9 @@ input {
   inset: 0;
   background: linear-gradient(
     135deg,
-    rgba(231, 201, 166, 0.12),
+    rgba(199, 173, 120, 0.1),
     transparent 38%,
-    rgba(7, 87, 200, 0.08)
+    rgba(47, 104, 114, 0.08)
   );
   pointer-events: none;
 }

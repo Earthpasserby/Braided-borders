@@ -6,17 +6,17 @@ export default function HeroSection() {
   return (
     <section
       id="top"
-      className="premium-hero relative overflow-hidden bg-[#081d27] px-6 pb-16 pt-32 text-white md:px-12 md:pb-20 md:pt-36"
+      className="premium-hero relative overflow-hidden bg-[#0b202b] px-6 pb-16 pt-32 text-white md:px-12 md:pb-20 md:pt-36"
     >
       <div
         className="absolute inset-0 bg-cover bg-center opacity-45"
         style={{
-          backgroundImage: `linear-gradient(125deg, rgba(8,29,39,0.7), rgba(8,29,39,0.4)), url('${heroImageUrl}')`,
+          backgroundImage: `linear-gradient(125deg, rgba(11,32,43,0.78), rgba(11,32,43,0.46)), url('${heroImageUrl}')`,
         }}
       />
       <div className="hero-mesh absolute inset-0" />
       <div className="hero-orbit absolute left-1/2 top-1/2 hidden h-[28rem] w-[28rem] -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/10 md:block" />
-      <div className="absolute inset-y-0 right-0 hidden w-1/2 bg-[radial-gradient(circle_at_center,rgba(231,201,166,0.18),transparent_55%)] md:block" />
+      <div className="absolute inset-y-0 right-0 hidden w-1/2 bg-[radial-gradient(circle_at_center,rgba(199,173,120,0.16),transparent_55%)] md:block" />
 
       <div className="relative mx-auto max-w-[1440px]">
         <div className="mb-10 flex flex-wrap items-center gap-3 text-mono text-[10px] uppercase tracking-[0.2em] text-white/70">
@@ -75,7 +75,7 @@ export default function HeroSection() {
               </div>
 
               <div className="mb-6 flex items-center justify-center">
-                <div className="relative flex h-38 w-38 items-center justify-center rounded-full border border-brand-sand/60 bg-[radial-gradient(circle_at_center,rgba(231,201,166,0.2),rgba(8,29,39,0.2)_55%,transparent_100%)]">
+                <div className="relative flex h-38 w-38 items-center justify-center rounded-full border border-brand-sand/60 bg-[radial-gradient(circle_at_center,rgba(199,173,120,0.18),rgba(11,32,43,0.2)_55%,transparent_100%)]">
                   <div className="absolute inset-3 rounded-full border border-white/15" />
                   <div className="text-center">
                     <p className="text-mono text-[10px] uppercase tracking-[0.18em] text-white/60">
