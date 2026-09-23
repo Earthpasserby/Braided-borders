@@ -58,19 +58,19 @@ export const startupServices = [
 ];
 
 export const clientTypes = [
-  "International venture funds — assessing or supporting companies entering Africa and MENA.",
+  "International venture funds — assessing or supporting companies entering Africa and the Middle East.",
   "Impact and emerging-market investors — looking for informed local diligence and practical risk control.",
   "Institutional investors — building a regional thesis with better access to operators and market context.",
 ];
 
 export const founders = [
   {
-    region: "MENA & North Africa",
+    region: "Middle East ",
     name: "Lars Gehrmann",
     image: "/source-assets/image1.jpg",
-    alt: "Regional skyline representing Lars Gehrmann's MENA coverage",
+    alt: "Regional skyline representing Lars Gehrmann's Middle East coverage",
     description:
-      "Qatar-based founder of the MENA Insurtech Summit, with deep institutional networks across the Gulf, MENA, and global insurance capital markets.",
+      "Qatar-based founder of the Middle East Insurtech Summit, with deep institutional networks across the Gulf, the Middle East, and global insurance capital markets.",
     detail:
       "ILS and agricultural insurance advisor across Gulf capital markets.",
   },

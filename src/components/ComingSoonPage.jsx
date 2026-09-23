@@ -55,7 +55,7 @@ export default function ComingSoonPage({ onViewInfo }) {
 
             <p className="mt-8 max-w-xl text-lg leading-8 text-white/70 md:text-xl">
               We are preparing a focused platform for insurtech, fintech, and
-              healthtech operators investing across Africa and MENA.
+              healthtech operators investing across Africa and the Middle East.
             </p>
 
             <div className="mt-10 flex flex-wrap items-center gap-4">
@@ -79,7 +79,7 @@ export default function ComingSoonPage({ onViewInfo }) {
           <div className="rounded-[28px] border border-white/15 bg-white/5 p-6 backdrop-blur-md">
             <div className="grid gap-5">
               {[
-                ["Coverage", "Sub-Saharan Africa & MENA"],
+                ["Coverage", "Sub-Saharan Africa & Middle East"],
                 ["Focus", "Due diligence to exit"],
                 ["Model", "Local execution, global rationale"],
                 ["Sectors", "Insurtech · Fintech · Healthtech"],

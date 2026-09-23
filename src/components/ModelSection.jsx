@@ -33,21 +33,26 @@ export default function ModelSection() {
           {phases.map((phase) => (
             <article
               key={phase.number}
-              className="african-card rounded-[26px] border border-white/35 bg-white/5 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-brand-sand/70"
+              className="relative rounded-[30px] border border-white/20 bg-white/5 p-6 shadow-[0_25px_60px_rgba(6,31,40,0.14)] transition-all duration-300 hover:-translate-y-1 hover:border-brand-sand/70"
             >
-              <span className="text-mono text-xs text-white/70">
-                PHASE {phase.number}
-              </span>
-              <h3 className="text-display mt-12 text-3xl">{phase.title}</h3>
+              <div className="mb-8 flex items-center justify-between">
+                <span className="text-mono text-xs text-white/70">
+                  PHASE {phase.number}
+                </span>
+                <span className="flex h-9 w-9 items-center justify-center rounded-full border border-white/20 bg-white/5 text-base text-brand-sand">
+                  {phase.number}
+                </span>
+              </div>
+              <h3 className="text-display mt-4 text-3xl">{phase.title}</h3>
               <p className="mt-5 min-h-20 leading-7 text-white/75">
                 {phase.text}
               </p>
 
-              <ul className="mt-7 space-y-3 border-t border-white/30 pt-5 text-mono text-[10px] uppercase tracking-[0.12em]">
+              <ul className="mt-7 space-y-3 border-t border-white/20 pt-5 text-mono text-[10px] uppercase tracking-[0.12em]">
                 {phase.items.map((item) => (
-                  <li key={item} className="flex gap-2">
-                    <ChevronDown size={13} />
-                    {item}
+                  <li key={item} className="flex items-start gap-2 text-white/80">
+                    <ChevronDown size={13} className="mt-1 shrink-0 text-brand-sand" />
+                    <span>{item}</span>
                   </li>
                 ))}
               </ul>

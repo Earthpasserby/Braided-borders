@@ -31,12 +31,50 @@ body {
   margin: 0;
   min-width: 320px;
   background:
-    radial-gradient(circle at top, rgba(231, 201, 166, 0.18), transparent 30%),
-    linear-gradient(180deg, #f4f0ea 0%, #ffffff 100%);
+    radial-gradient(circle at top, rgba(231, 201, 166, 0.22), transparent 28%),
+    linear-gradient(180deg, #f5f1ea 0%, #f9f8f5 28%, #eef3f5 100%);
 }
 button,
 input {
   font: inherit;
+}
+
+.hero-panel,
+.glass-card,
+.editorial-card,
+.metric-card,
+.signal-card,
+.hero-card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03));
+  box-shadow: 0 30px 80px rgba(3, 26, 37, 0.18);
+}
+
+.section-shell {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.96));
+  border: 1px solid rgba(6, 31, 40, 0.08);
+  box-shadow: 0 20px 60px rgba(6, 31, 40, 0.04);
+}
+
+.soft-divider {
+  background: linear-gradient(90deg, rgba(6, 31, 40, 0.15), rgba(6, 31, 40, 0.03));
+}
+
+.premium-hero {
+  background:
+    radial-gradient(circle at top left, rgba(231, 201, 166, 0.12), transparent 26%),
+    linear-gradient(135deg, #081d27 0%, #0a2130 32%, #071b25 100%);
+}
+
+.hero-mesh {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 26px 26px;
+  mask-image: radial-gradient(circle at center, black 28%, transparent 82%);
+}
+
+.hero-orbit {
+  background: radial-gradient(circle, rgba(231, 201, 166, 0.18), transparent 60%);
 }
 
 ::selection {

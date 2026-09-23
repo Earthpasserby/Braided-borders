@@ -8,7 +8,7 @@ export default function ServicesSection() {
     >
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(231,201,166,0.16),transparent_24%),radial-gradient(circle_at_bottom_left,rgba(7,87,200,0.18),transparent_26%)]" />
       <div className="relative mx-auto max-w-[1200px]">
-        <div className="mb-14 grid gap-8 md:grid-cols-[0.7fr_1.3fr]">
+        <div className="mb-14 grid gap-8 md:grid-cols-[0.7fr_1.3fr] md:items-end">
           <p className="text-mono text-[10px] uppercase tracking-[0.2em] text-brand-blue">
             What we help with
           </p>
@@ -25,34 +25,39 @@ export default function ServicesSection() {
           </div>
         </div>
 
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4 lg:gap-4">
+        <div className="grid gap-4 lg:grid-cols-4">
           {capabilities.map((capability, index) => (
-            <div
+            <article
               key={capability}
-              className="african-card min-h-32 rounded-2xl border border-white/15 bg-white/[0.04] p-5 transition-all duration-300 hover:-translate-y-1 hover:border-brand-sand/60 hover:bg-white/5 sm:p-6"
+              className="group editorial-card min-h-[220px] rounded-[26px] border border-white/15 bg-white/[0.04] p-5 transition-all duration-300 hover:-translate-y-2 hover:border-brand-sand/60 hover:bg-white/6 sm:p-6"
             >
-              <span className="text-mono text-[10px] text-brand-sand">
-                0{index + 1}
-              </span>
-              <p className="mt-7 text-lg">{capability}</p>
-            </div>
+              <div className="flex items-center justify-between">
+                <span className="text-mono text-[10px] text-brand-sand">
+                  0{index + 1}
+                </span>
+                <span className="rounded-full border border-white/10 bg-white/5 p-2 text-white/60 transition-transform duration-300 group-hover:translate-x-1">
+                  →
+                </span>
+              </div>
+              <p className="mt-10 text-lg leading-7 text-white">{capability}</p>
+            </article>
           ))}
         </div>
 
-        <div className="mt-16 border-t border-white/20 pt-8">
+        <div className="mt-16 rounded-[28px] border border-white/10 bg-white/[0.03] p-6 md:p-8">
           <p className="text-mono text-[10px] uppercase tracking-[0.2em] text-brand-blue">
             For founders and teams
           </p>
-          <div className="mt-7 grid gap-3 md:grid-cols-3 md:gap-4">
+          <div className="mt-7 grid gap-4 md:grid-cols-3">
             {startupServices.map((service, index) => (
               <div
                 key={service}
-                className="african-card animate-soft-enter rounded-2xl border border-white/15 p-5 transition-all duration-300 hover:-translate-y-1 hover:border-brand-sand/60"
+                className="rounded-2xl border border-white/10 bg-[#081f27] p-5"
               >
                 <span className="text-mono text-xs text-white/50">
                   0{index + 1}
                 </span>
-                <p className="mt-10 text-lg">{service}</p>
+                <p className="mt-10 text-lg leading-7 text-white">{service}</p>
               </div>
             ))}
           </div>
