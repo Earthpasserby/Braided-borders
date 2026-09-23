@@ -39,7 +39,9 @@ export default function ServicesSection() {
                   →
                 </span>
               </div>
-              <p className="mt-10 text-lg leading-7 text-white/90">{capability}</p>
+              <p className="mt-10 text-lg leading-7 text-white/90">
+                {capability}
+              </p>
             </article>
           ))}
         </div>
@@ -57,7 +59,9 @@ export default function ServicesSection() {
                 <span className="text-mono text-xs text-white/50">
                   0{index + 1}
                 </span>
-                <p className="mt-10 text-lg leading-7 text-white/90">{service}</p>
+                <p className="mt-10 text-lg leading-7 text-white/90">
+                  {service}
+                </p>
               </div>
             ))}
           </div>

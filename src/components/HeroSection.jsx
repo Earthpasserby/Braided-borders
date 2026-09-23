@@ -35,12 +35,14 @@ export default function HeroSection() {
             </p>
             <h1 className="text-display text-[clamp(4rem,7vw,8.5rem)] leading-[0.78] tracking-[-0.06em] text-white">
               De-risking Capital
-              <span className="mt-2 block text-brand-sand">Across Africa and Middle East</span>
+              <span className="mt-2 block text-brand-sand">
+                Across Africa and Middle East
+              </span>
             </h1>
             <p className="mt-8 max-w-xl text-lg leading-7 text-white/75 md:text-xl">
-              Braided Borders helps investors and founders understand the market,
-              identify the right partners, and turn regional complexity into a
-              practical path to growth.
+              Braided Borders helps investors and founders understand the
+              market, identify the right partners, and turn regional complexity
+              into a practical path to growth.
             </p>
 
             <div className="mt-10 flex flex-wrap items-center gap-4">
@@ -111,8 +113,13 @@ export default function HeroSection() {
             ["02", "Local access, global lens"],
             ["03", "Execution without guesswork"],
           ].map(([index, label]) => (
-            <div key={index} className="rounded-2xl border border-white/10 bg-white/5 px-4 py-4 backdrop-blur-sm">
-              <p className="text-mono text-[10px] uppercase tracking-[0.18em] text-brand-sand">{index}</p>
+            <div
+              key={index}
+              className="rounded-2xl border border-white/10 bg-white/5 px-4 py-4 backdrop-blur-sm"
+            >
+              <p className="text-mono text-[10px] uppercase tracking-[0.18em] text-brand-sand">
+                {index}
+              </p>
               <p className="mt-3 text-base text-white/80">{label}</p>
             </div>
           ))}

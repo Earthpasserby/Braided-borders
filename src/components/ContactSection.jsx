@@ -17,8 +17,8 @@ export default function ContactSection() {
               </h2>
               <p className="mt-8 max-w-xl text-lg leading-8 text-brand-ink/70">
                 Tell us what you are assessing, building, or trying to solve. We
-                will bring the relevant regional context and be clear about where
-                we can help.
+                will bring the relevant regional context and be clear about
+                where we can help.
               </p>
             </div>
 

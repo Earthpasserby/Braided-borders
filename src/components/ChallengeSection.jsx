@@ -31,8 +31,8 @@ export default function ChallengeSection() {
                 <em>the details.</em>
               </h2>
               <p className="mt-8 max-w-2xl text-lg leading-8 text-brand-ink/70">
-                A strong deck rarely answers the practical questions that come up
-                on the ground. Who truly buys? Which approvals matter? Which
+                A strong deck rarely answers the practical questions that come
+                up on the ground. Who truly buys? Which approvals matter? Which
                 partner can open the next door? We help investment teams answer
                 those questions before they become expensive surprises.
               </p>

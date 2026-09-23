@@ -48,9 +48,9 @@ export default function CompanyOverviewPage({ onBack }) {
           </h1>
           <p className="mt-8 max-w-3xl text-lg leading-8 text-brand-ink/70">
             Braided Borders helps investors and operators navigate the realities
-            of deploying capital across Africa and the Middle East, combining on-the-ground
-            intelligence, operational support, and ecosystem access into a
-            single strategic platform.
+            of deploying capital across Africa and the Middle East, combining
+            on-the-ground intelligence, operational support, and ecosystem
+            access into a single strategic platform.
           </p>
         </div>
       </section>

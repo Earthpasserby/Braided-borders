@@ -43,15 +43,23 @@ export default function ModelSection() {
                   {phase.number}
                 </span>
               </div>
-              <h3 className="text-display mt-4 text-3xl text-white">{phase.title}</h3>
+              <h3 className="text-display mt-4 text-3xl text-white">
+                {phase.title}
+              </h3>
               <p className="mt-5 min-h-20 leading-7 text-white/75">
                 {phase.text}
               </p>
 
               <ul className="mt-7 space-y-3 border-t border-white/15 pt-5 text-mono text-[10px] uppercase tracking-[0.12em]">
                 {phase.items.map((item) => (
-                  <li key={item} className="flex items-start gap-2 text-white/80">
-                    <ChevronDown size={13} className="mt-0.5 shrink-0 text-brand-sand" />
+                  <li
+                    key={item}
+                    className="flex items-start gap-2 text-white/80"
+                  >
+                    <ChevronDown
+                      size={13}
+                      className="mt-0.5 shrink-0 text-brand-sand"
+                    />
                     <span>{item}</span>
                   </li>
                 ))}

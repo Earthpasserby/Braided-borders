@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="mx-auto flex max-w-[1440px] flex-col justify-between gap-8 border-t border-white/10 pt-8 md:flex-row md:items-center">
         <div className="flex items-center gap-3">
           <img
-            src="/source-assets/image2.png"
+            src="/source-assets/image2-removebg-preview.png"
             alt="Braided Borders"
             className="h-14 w-auto"
           />

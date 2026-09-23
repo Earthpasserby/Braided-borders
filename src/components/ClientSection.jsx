@@ -30,7 +30,9 @@ export default function ClientSection() {
                   <span className="text-mono text-xs text-brand-blue">
                     0{index + 1}
                   </span>
-                  <p className="max-w-xl text-xl leading-8 text-brand-ink/80">{client}</p>
+                  <p className="max-w-xl text-xl leading-8 text-brand-ink/80">
+                    {client}
+                  </p>
                 </div>
               ))}
             </div>

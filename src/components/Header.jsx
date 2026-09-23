@@ -8,9 +8,9 @@ export default function Header({ menuOpen, setMenuOpen }) {
       <div className="mx-auto flex max-w-[1440px] items-center justify-between">
         <a href="#top" className="flex items-center gap-3">
           <img
-            src="/source-assets/image2.png"
+            src="/source-assets/image2-removebg-preview.png"
             alt="Braided Borders"
-            className="h-18 w-auto object-contain drop-shadow-[0_0_18px_rgba(231,201,166,0.25)]"
+            className="h-20 w-auto object-contain drop-shadow-[0_0_18px_rgba(231,201,166,0.25)]"
           />
           <span className="hidden text-mono text-[20px] uppercase tracking-[0.16em] sm:block">
             Braided Borders
