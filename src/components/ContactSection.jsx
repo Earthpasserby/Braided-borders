@@ -2,15 +2,15 @@ import { ArrowRight } from "lucide-react";
 
 export default function ContactSection() {
   return (
-    <section id="contact" className="px-6 py-20 md:px-12 md:py-28">
+    <section id="contact" className="px-4 py-16 md:px-12 md:py-28">
       <div className="mx-auto max-w-[1200px]">
-        <div className="luxury-block rounded-[40px] p-6 md:p-10">
+        <div className="luxury-block rounded-[30px] p-5 sm:rounded-[40px] sm:p-6 md:p-10">
           <div className="grid gap-10 md:grid-cols-[1.2fr_0.8fr] md:items-end">
             <div>
               <p className="text-mono text-[10px] uppercase tracking-[0.2em] text-brand-blue">
                 Start with a conversation
               </p>
-              <h2 className="text-display mt-5 max-w-3xl text-5xl leading-[0.9] tracking-[-0.05em] md:text-7xl">
+              <h2 className="text-display mt-5 max-w-3xl text-4xl leading-[0.96] tracking-[-0.05em] sm:text-5xl md:text-7xl">
                 A clearer view of the market
                 <br />
                 <em>starts here.</em>

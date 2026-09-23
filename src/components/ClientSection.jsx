@@ -6,15 +6,15 @@ import {
 
 export default function ClientSection() {
   return (
-    <section className="px-6 py-20 md:px-12 md:py-28">
+    <section className="px-4 py-16 md:px-12 md:py-28">
       <div className="mx-auto max-w-[1200px]">
-        <div className="luxury-block rounded-[40px] p-6 md:p-10">
+        <div className="luxury-block rounded-[30px] p-5 sm:rounded-[40px] sm:p-6 md:p-10">
           <div className="grid gap-14 md:grid-cols-[0.7fr_1.3fr] md:gap-16">
             <div className="flex flex-col justify-between">
               <p className="text-mono text-[10px] uppercase tracking-[0.2em] text-brand-blue">
                 Who we serve
               </p>
-              <h2 className="text-display mt-5 text-5xl leading-[0.9] tracking-[-0.04em] md:text-6xl">
+              <h2 className="text-display mt-5 text-4xl leading-[0.96] tracking-[-0.04em] sm:text-5xl md:text-6xl">
                 Capital with
                 <br />
                 <em>ambition.</em>

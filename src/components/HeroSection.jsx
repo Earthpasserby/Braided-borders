@@ -6,7 +6,7 @@ export default function HeroSection() {
   return (
     <section
       id="top"
-      className="premium-hero relative overflow-hidden bg-[#0b202b] px-6 pb-16 pt-32 text-white md:px-12 md:pb-20 md:pt-36"
+      className="premium-hero relative overflow-hidden bg-[#0b202b] px-4 pb-10 pt-24 text-white md:px-12 md:pb-14 md:pt-28"
     >
       <div
         className="absolute inset-0 bg-cover bg-center opacity-45"
@@ -19,7 +19,7 @@ export default function HeroSection() {
       <div className="absolute inset-y-0 right-0 hidden w-1/2 bg-[radial-gradient(circle_at_center,rgba(199,173,120,0.16),transparent_55%)] md:block" />
 
       <div className="relative mx-auto max-w-[1440px]">
-        <div className="mb-10 flex flex-wrap items-center gap-3 text-mono text-[10px] uppercase tracking-[0.2em] text-white/70">
+        <div className="mb-8 flex flex-wrap items-center gap-2 text-mono text-[9px] uppercase tracking-[0.16em] text-white/70 sm:gap-3 sm:text-[10px] sm:tracking-[0.2em]">
           <span className="rounded-full border border-white/15 bg-white/5 px-3 py-2 backdrop-blur-sm">
             Local context for global capital
           </span>
@@ -33,22 +33,22 @@ export default function HeroSection() {
             <p className="mb-6 text-mono text-[10px] uppercase tracking-[0.22em] text-brand-sand">
               Market access, grounded in reality
             </p>
-            <h1 className="text-display text-[clamp(4rem,7vw,8.5rem)] leading-[0.78] tracking-[-0.06em] text-white">
+            <h1 className="text-display text-[clamp(2.5rem,10vw,7rem)] leading-[0.9] tracking-[-0.05em] text-white md:leading-[0.82] md:tracking-[-0.06em]">
               De-risking Capital
               <span className="mt-2 block text-brand-sand">
                 Across Africa and Middle East
               </span>
             </h1>
-            <p className="mt-8 max-w-xl text-lg leading-7 text-white/75 md:text-xl">
+            <p className="mt-6 max-w-xl text-base leading-7 text-white/75 sm:text-lg md:mt-8 md:text-xl">
               Braided Borders helps investors and founders understand the
               market, identify the right partners, and turn regional complexity
               into a practical path to growth.
             </p>
 
-            <div className="mt-10 flex flex-wrap items-center gap-4">
+            <div className="mt-8 flex flex-col items-stretch gap-3 sm:flex-row sm:items-center sm:gap-4 md:mt-10">
               <a
                 href="#challenge"
-                className="inline-flex items-center gap-4 rounded-full bg-brand-blue px-5 py-3 text-mono text-[10px] uppercase tracking-[0.16em] shadow-[0_18px_35px_rgba(7,87,200,0.38)] transition-all duration-200 hover:-translate-y-0.5 hover:bg-white hover:text-brand-ink"
+                className="inline-flex items-center justify-center gap-4 rounded-full bg-brand-blue px-5 py-3 text-mono text-[10px] uppercase tracking-[0.16em] shadow-[0_18px_35px_rgba(7,87,200,0.38)] transition-all duration-200 hover:-translate-y-0.5 hover:bg-white hover:text-brand-ink"
               >
                 See how we work <ArrowRight size={16} />
               </a>
@@ -56,7 +56,7 @@ export default function HeroSection() {
                 href={linkedInUrl}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center gap-3 rounded-full border border-white/70 bg-white/5 px-5 py-3 text-mono text-[10px] uppercase tracking-[0.16em] backdrop-blur-sm transition-all duration-200 hover:border-brand-sand hover:bg-brand-sand hover:text-brand-ink"
+                className="inline-flex items-center justify-center gap-3 rounded-full border border-white/70 bg-white/5 px-5 py-3 text-mono text-[10px] uppercase tracking-[0.16em] backdrop-blur-sm transition-all duration-200 hover:border-brand-sand hover:bg-brand-sand hover:text-brand-ink"
               >
                 Connect with us <ArrowRight size={16} />
               </a>
@@ -64,7 +64,7 @@ export default function HeroSection() {
           </div>
 
           <div className="relative flex justify-center md:justify-end">
-            <div className="hero-card animate-rise relative w-full max-w-[440px] rounded-[32px] border border-white/15 bg-white/8 p-5 backdrop-blur-2xl">
+            <div className="hero-card animate-rise relative w-full max-w-[440px] rounded-[26px] border border-white/15 bg-white/8 p-4 backdrop-blur-2xl sm:p-5 md:rounded-[32px]">
               <div className="mb-5 flex items-center justify-between border-b border-white/10 pb-4">
                 <span className="text-mono text-[10px] uppercase tracking-[0.18em] text-brand-sand">
                   Regional lens
@@ -92,13 +92,13 @@ export default function HeroSection() {
               <div className="space-y-3 text-mono text-[10px] uppercase tracking-[0.16em] text-white/75">
                 <div className="rounded-2xl border border-white/10 bg-black/10 p-4">
                   <p className="text-white/60">Markets</p>
-                  <p className="mt-3 text-lg normal-case tracking-[0.02em] text-white">
+                    <p className="mt-3 text-base normal-case tracking-[0.02em] text-white sm:text-lg">
                     Sub-Saharan Africa & Middle East
                   </p>
                 </div>
                 <div className="rounded-2xl border border-white/10 bg-black/10 p-4">
                   <p className="text-white/60">Execution</p>
-                  <p className="mt-3 text-lg normal-case tracking-[0.02em] text-white">
+                    <p className="mt-3 text-base normal-case tracking-[0.02em] text-white sm:text-lg">
                     Research to execution
                   </p>
                 </div>

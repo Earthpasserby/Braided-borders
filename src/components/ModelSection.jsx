@@ -6,7 +6,7 @@ export default function ModelSection() {
   return (
     <section
       id="model"
-      className="relative overflow-hidden bg-brand-blue px-6 py-20 text-white md:px-12 md:py-28"
+      className="relative overflow-hidden bg-brand-blue px-4 py-16 text-white md:px-12 md:py-28"
     >
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(231,201,166,0.12),transparent_24%),radial-gradient(circle_at_bottom_right,rgba(6,31,40,0.2),transparent_26%)]" />
       <div className="relative mx-auto max-w-[1200px]">
@@ -15,7 +15,7 @@ export default function ModelSection() {
             <p className="text-mono text-[10px] uppercase tracking-[0.2em] text-white/70">
               How we work
             </p>
-            <h2 className="text-display mt-5 text-5xl leading-[0.9] tracking-[-0.05em] md:text-7xl">
+            <h2 className="text-display mt-5 text-4xl leading-[0.96] tracking-[-0.05em] sm:text-5xl md:text-7xl">
               Close to the work,
               <br />
               <em>clear about the detail.</em>

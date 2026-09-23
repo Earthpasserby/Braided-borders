@@ -17,8 +17,9 @@ function App() {
     <main className="min-h-screen overflow-hidden bg-brand-white text-brand-ink">
       <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <HeroSection />
-      <ChallengeSection />
       <ServicesSection />
+
+      <ChallengeSection />
       <LeadershipSection />
       <ClientSection />
       <ModelSection />
