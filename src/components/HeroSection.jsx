@@ -45,7 +45,7 @@ export default function HeroSection() {
               into a practical path to growth.
             </p>
 
-            <div className="mt-8 flex flex-col items-stretch gap-3 sm:flex-row sm:items-center sm:gap-4 md:mt-10">
+            <div className="mt-8 flex flex-col items-stretch gap-3 sm:flex-row sm:items-center sm:gap-4 md:mt-4">
               <a
                 href="#challenge"
                 className="inline-flex items-center justify-center gap-4 rounded-full bg-brand-blue px-5 py-3 text-mono text-[10px] uppercase tracking-[0.16em] shadow-[0_18px_35px_rgba(7,87,200,0.38)] transition-all duration-200 hover:-translate-y-0.5 hover:bg-white hover:text-brand-ink"
@@ -92,13 +92,13 @@ export default function HeroSection() {
               <div className="space-y-3 text-mono text-[10px] uppercase tracking-[0.16em] text-white/75">
                 <div className="rounded-2xl border border-white/10 bg-black/10 p-4">
                   <p className="text-white/60">Markets</p>
-                    <p className="mt-3 text-base normal-case tracking-[0.02em] text-white sm:text-lg">
+                  <p className="mt-3 text-base normal-case tracking-[0.02em] text-white sm:text-lg">
                     Sub-Saharan Africa & Middle East
                   </p>
                 </div>
                 <div className="rounded-2xl border border-white/10 bg-black/10 p-4">
                   <p className="text-white/60">Execution</p>
-                    <p className="mt-3 text-base normal-case tracking-[0.02em] text-white sm:text-lg">
+                  <p className="mt-3 text-base normal-case tracking-[0.02em] text-white sm:text-lg">
                     Research to execution
                   </p>
                 </div>
