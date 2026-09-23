@@ -18,7 +18,7 @@ export default function Header({ menuOpen, setMenuOpen }) {
         </a>
 
         <div className="hidden items-center gap-6 md:flex">
-          <div className="flex items-center gap-5 text-mono text-[10px] uppercase tracking-[0.16em] text-white/80">
+          <div className="flex items-center gap-5 text-mono text-[10px] font-medium uppercase tracking-[0.16em] text-white/90">
             {navItems.map(({ label, href, primary }) => (
               <a
                 key={label}
@@ -34,7 +34,7 @@ export default function Header({ menuOpen, setMenuOpen }) {
             ))}
           </div>
 
-          <div className="flex items-center gap-3 border-l border-white/20 pl-4 text-[10px] uppercase tracking-[0.16em] text-white/75">
+          <div className="flex items-center gap-3 border-l border-white/20 pl-4 text-[10px] font-medium uppercase tracking-[0.16em] text-white/85">
             {socialLinks.map(({ label, href }) => (
               <a
                 key={label}
@@ -61,7 +61,7 @@ export default function Header({ menuOpen, setMenuOpen }) {
 
       {menuOpen && (
         <div className="mx-auto mt-2 max-w-[1440px] rounded-2xl border border-white/15 bg-brand-ink/90 p-3 shadow-[0_20px_50px_rgba(3,26,37,0.45)] backdrop-blur-xl md:hidden">
-          <div className="grid gap-2 text-mono text-[10px] uppercase tracking-[0.16em] text-white/80">
+          <div className="grid gap-2 text-mono text-[10px] font-medium uppercase tracking-[0.16em] text-white/90">
             {navItems.map(({ label, href, primary }) => (
               <a
                 key={label}
