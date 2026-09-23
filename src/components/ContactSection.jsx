@@ -22,7 +22,7 @@ export default function ContactSection() {
               </p>
             </div>
 
-            <div className="rounded-[28px] border border-brand-ink/10 bg-[#0b1d28] p-6 text-white">
+            <div className="rounded-[28px] border border-brand-ink/10 bg-[#0b1d28] p-6 text-white shadow-[0_24px_50px_rgba(6,31,40,0.12)]">
               <p className="text-mono text-[10px] uppercase tracking-[0.18em] text-brand-sand">
                 Reach out
               </p>

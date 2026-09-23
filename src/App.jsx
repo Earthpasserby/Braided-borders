@@ -19,9 +19,9 @@ function App() {
       <HeroSection />
       <ChallengeSection />
       <ServicesSection />
+      <LeadershipSection />
       <ClientSection />
       <ModelSection />
-      <LeadershipSection />
       <ContactSection />
       <Footer />
     </main>
