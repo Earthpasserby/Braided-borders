@@ -89,6 +89,7 @@ export const founders = [
 export const navItems = [
   { label: "The gap", href: "#challenge" },
   { label: "What we do", href: "#services" },
+  { label: "Who we serve", href: "#clients" },
   { label: "Our model", href: "#model" },
   { label: "Start a conversation", href: "#contact", primary: true },
 ];
