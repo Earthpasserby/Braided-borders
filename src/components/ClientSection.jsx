@@ -1,8 +1,4 @@
-import {
-  clientTypes,
-  networkRelationships,
-  sectors,
-} from "../data/siteContent";
+import { clientTypes, sectors } from "../data/siteContent";
 
 export default function ClientSection() {
   return (
@@ -70,27 +66,6 @@ export default function ClientSection() {
                   </div>
                 ))}
               </div>
-            </div>
-
-            <div className="mt-12 border-t border-white/10 pt-7">
-              <div className="flex flex-wrap items-center justify-between gap-4">
-                <p className="text-mono text-[9px] uppercase tracking-[0.18em] text-brand-sand">
-                  Anchor network relationships
-                </p>
-                <span className="text-mono text-[9px] uppercase tracking-[0.18em] text-white/40">
-                  Local access / global lens
-                </span>
-              </div>
-              <ul className="mt-6 grid gap-3 sm:grid-cols-2 md:grid-cols-3">
-                {networkRelationships.map((relationship) => (
-                  <li
-                    key={relationship}
-                    className="rounded-2xl border border-white/10 bg-white/[0.04] px-4 py-4 text-sm leading-6 text-white/70"
-                  >
-                    {relationship}
-                  </li>
-                ))}
-              </ul>
             </div>
           </div>
         </div>
