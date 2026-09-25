@@ -1,3 +1,5 @@
+import { Linkedin } from "lucide-react";
+
 import { founders } from "../data/siteContent";
 
 export default function LeadershipSection() {
@@ -61,6 +63,15 @@ export default function LeadershipSection() {
               <p className="mt-5 border-t border-white/10 pt-4 text-xs leading-5 text-white/55">
                 {founder.detail}
               </p>
+              <a
+                href={founder.linkedIn}
+                target="_blank"
+                rel="noreferrer"
+                className="mt-5 inline-flex items-center gap-2 text-mono text-[9px] uppercase tracking-[0.16em] text-brand-sand transition-colors hover:text-white"
+              >
+                <Linkedin size={14} />
+                View LinkedIn profile
+              </a>
             </article>
           ))}
         </div>
