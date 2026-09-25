@@ -67,7 +67,7 @@ export const founders = [
   {
     region: "Middle East ",
     name: "Lars Gehrmann",
-    image: "/source-assets/image1.jpg",
+    image: "/source-assets/lars.jpeg",
     alt: "Regional skyline representing Lars Gehrmann's Middle East coverage",
     description:
       "Qatar-based founder of the Middle East Insurtech Summit, with deep institutional networks across the Gulf, the Middle East, and global insurance capital markets.",
@@ -77,7 +77,7 @@ export const founders = [
   {
     region: "Sub-Saharan Africa",
     name: "Dr. Tunde Salako",
-    image: "/source-assets/image1.jpg",
+    image: "/source-assets/slk.jpg",
     alt: "Regional skyline representing Dr. Tunde Salako's Sub-Saharan Africa coverage",
     description:
       "Nigerian-based operator and investor with a historical lens across financial inclusion, healthcare delivery, and institutional execution across West Africa.",

@@ -81,7 +81,9 @@ export default function HeroSection() {
                     <p className="text-mono text-[10px] uppercase tracking-[0.18em] text-white/60">
                       coverage
                     </p>
-                    <p className="hero-title-number mt-3 text-4xl text-white">11</p>
+                    <p className="hero-title-number mt-3 text-4xl text-white">
+                      11
+                    </p>
                     <p className="mt-1 text-mono text-[8px] uppercase tracking-[0.18em] text-brand-sand">
                       markets
                     </p>

@@ -56,19 +56,19 @@ export default function ClientSection() {
               </div>
 
               <div className="overflow-hidden rounded-[26px] border border-white/10 bg-white/[0.04]">
-              {clientTypes.map((client, index) => (
-                <div
-                  key={client}
-                  className="flex gap-5 border-b border-white/10 px-5 py-5 last:border-b-0 md:px-7"
-                >
-                  <span className="text-mono text-[10px] uppercase tracking-[0.14em] text-brand-sand">
-                    0{index + 1}
-                  </span>
-                  <p className="max-w-xl text-lg leading-8 text-white/85 md:text-xl">
-                    {client}
-                  </p>
-                </div>
-              ))}
+                {clientTypes.map((client, index) => (
+                  <div
+                    key={client}
+                    className="flex gap-5 border-b border-white/10 px-5 py-5 last:border-b-0 md:px-7"
+                  >
+                    <span className="text-mono text-[10px] uppercase tracking-[0.14em] text-brand-sand">
+                      0{index + 1}
+                    </span>
+                    <p className="max-w-xl text-lg leading-8 text-white/85 md:text-xl">
+                      {client}
+                    </p>
+                  </div>
+                ))}
               </div>
             </div>
 
