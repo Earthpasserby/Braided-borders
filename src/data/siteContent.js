@@ -98,14 +98,13 @@ export const navItems = [
   { label: "Start a conversation", href: "#contact", primary: true },
 ];
 
-export const linkedInUrl = "https://www.linkedin.com/company/braided-borders/";
+export const linkedInUrl =
+  "https://www.linkedin.com/in/tundeosalako?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app";
 export const emailUrl = "mailto:hello@braidedborders.com";
-export const twitterUrl = "https://x.com/";
 
 export const socialLinks = [
   { label: "LinkedIn", href: linkedInUrl },
   { label: "Email", href: emailUrl },
-  { label: "X / Twitter", href: twitterUrl },
 ];
 
 export const heroImageUrl = "/source-assets/image1.jpg";
