@@ -12,7 +12,7 @@ import {
 
 export default function CompanyOverviewPage({ onBack }) {
   return (
-    <main className="bg-brand-white text-brand-ink">
+    <main className="bg-[#0B132B] text-white">
       <header className="border-b border-brand-ink/10 bg-white/90 backdrop-blur-md">
         <div className="mx-auto flex max-w-[1440px] items-center justify-between px-6 py-5 md:px-12">
           <a href="#top" className="flex items-center gap-3">

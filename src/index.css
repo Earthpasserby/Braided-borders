@@ -2,23 +2,23 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand-ink: #163a46;
-  --color-brand-blue: #4e7e89;
-  --color-brand-gray: #8aa0a3;
+  --color-brand-ink: #0B132B;
+  --color-brand-blue: #0D1931;
+  --color-brand-gray: #9aa9b8;
   --color-brand-white: #ffffff;
-  --color-brand-sand: #d9c39b;
-  --color-brand-warm: #c38d71;
-  --color-brand-olive: #8ea08d;
+  --color-brand-sand: #dfeaf5;
+  --color-brand-warm: #b98b63;
+  --color-brand-olive: #6f847a;
 }
 
 :root {
   font-family: "DM Sans", sans-serif;
-  color: #061f28;
-  background: #ffffff;
+  color: #ffffff;
+  background: #0B132B;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  --brand-glow: rgba(199, 173, 120, 0.24);
-  --brand-blue-glow: rgba(47, 104, 114, 0.24);
+  --brand-glow: rgba(13, 25, 49, 0.28);
+  --brand-blue-glow: rgba(13, 25, 49, 0.2);
 }
 
 * {
@@ -30,9 +30,7 @@ html {
 body {
   margin: 0;
   min-width: 320px;
-  background:
-    radial-gradient(circle at top, rgba(217, 195, 155, 0.12), transparent 24%),
-    linear-gradient(180deg, #f6f7f4 0%, #f3f6f6 28%, #eef3f3 100%);
+  background: #0B132B;
 }
 button,
 input {
@@ -75,10 +73,10 @@ input {
   background:
     radial-gradient(
       circle at top left,
-      rgba(199, 173, 120, 0.13),
-      transparent 26%
+      rgba(144, 199, 223, 0.22),
+      transparent 25%
     ),
-    linear-gradient(135deg, #081c27 0%, #123640 46%, #0b202b 100%);
+    linear-gradient(135deg, #dfeaf1 0%, #bfd9e8 18%, #174f72 52%, #0b2231 100%);
 }
 
 .hero-mesh {

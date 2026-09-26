@@ -4,7 +4,7 @@ import { navItems, socialLinks } from "../data/siteContent";
 
 export default function Header({ menuOpen, setMenuOpen }) {
   return (
-    <nav className="fixed left-0 right-0 top-0 z-50 border-b border-white/10 bg-brand-ink/70 px-4 py-2 text-white backdrop-blur-xl md:px-10 md:py-2.5">
+    <nav className="fixed left-0 right-0 top-0 z-50 border-b border-white/10 bg-[#0B132B]/80 px-4 py-2 text-white backdrop-blur-xl md:px-10 md:py-2.5">
       <div className="mx-auto flex max-w-[1440px] items-center justify-between">
         <a href="#top" className="flex items-center gap-3">
           <img
@@ -60,7 +60,7 @@ export default function Header({ menuOpen, setMenuOpen }) {
       </div>
 
       {menuOpen && (
-        <div className="mx-auto mt-2 max-w-[1440px] rounded-2xl border border-white/15 bg-brand-ink/90 p-3 shadow-[0_20px_50px_rgba(3,26,37,0.45)] backdrop-blur-xl md:hidden">
+        <div className="mx-auto mt-2 max-w-[1440px] rounded-2xl border border-white/15 bg-[#0B132B]/95 p-3 shadow-[0_20px_50px_rgba(3,26,37,0.45)] backdrop-blur-xl md:hidden">
           <div className="grid gap-2 text-mono text-[10px] font-medium uppercase tracking-[0.16em] text-white/90">
             {navItems.map(({ label, href, primary }) => (
               <a

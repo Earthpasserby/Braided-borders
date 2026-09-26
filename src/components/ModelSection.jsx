@@ -6,9 +6,9 @@ export default function ModelSection() {
   return (
     <section
       id="model"
-      className="relative overflow-hidden bg-[#e8eff0] px-4 py-16 text-brand-ink md:px-12 md:py-28"
+      className="relative overflow-hidden bg-[#0B132B] px-4 py-16 text-white md:px-12 md:py-28"
     >
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(199,173,120,0.18),transparent_28%),linear-gradient(135deg,rgba(255,255,255,0.55),transparent_52%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(28,106,147,0.1),transparent_28%),linear-gradient(135deg,rgba(255,255,255,0.75),transparent_52%)]" />
       <div className="relative mx-auto max-w-[1200px]">
         <div className="mb-12 flex flex-col justify-between gap-7 border-b border-brand-ink/10 pb-10 md:flex-row md:items-end">
           <div className="animate-rise">

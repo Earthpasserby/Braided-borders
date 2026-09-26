@@ -2,7 +2,7 @@ import { linkedInUrl } from "../data/siteContent";
 
 export default function Footer() {
   return (
-    <footer className="bg-brand-ink px-6 py-10 text-white md:px-12">
+    <footer className="bg-[#0B132B] px-6 py-10 text-white md:px-12">
       <div className="mx-auto flex max-w-[1440px] flex-col justify-between gap-8 border-t border-white/10 pt-8 md:flex-row md:items-center">
         <div className="flex items-center gap-3">
           <img

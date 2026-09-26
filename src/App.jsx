@@ -14,7 +14,7 @@ function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <main className="min-h-screen overflow-hidden bg-brand-white text-brand-ink">
+    <main className="min-h-screen overflow-hidden bg-[#0B132B] text-white">
       <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <HeroSection />
       <ServicesSection />

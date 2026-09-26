@@ -2,9 +2,9 @@ import { ArrowRight } from "lucide-react";
 
 export default function ContactSection() {
   return (
-    <section id="contact" className="px-4 py-16 md:px-12 md:py-28">
+    <section id="contact" className="bg-[#0B132B] px-4 py-16 md:px-12 md:py-28">
       <div className="mx-auto max-w-[1200px]">
-        <div className="relative overflow-hidden rounded-[32px] bg-brand-ink p-5 text-white shadow-[0_30px_70px_rgba(6,31,40,0.16)] sm:p-7 md:rounded-[40px] md:p-10">
+        <div className="relative overflow-hidden rounded-[32px] bg-[#0D1931] p-5 text-white shadow-[0_30px_70px_rgba(6,31,40,0.16)] sm:p-7 md:rounded-[40px] md:p-10">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(199,173,120,0.13),transparent_30%),linear-gradient(120deg,rgba(47,104,114,0.16),transparent_52%)]" />
 
           <div className="relative">

@@ -4,7 +4,7 @@ import { founders } from "../data/siteContent";
 
 export default function LeadershipSection() {
   return (
-    <section className="relative overflow-hidden bg-brand-ink px-4 py-16 text-white md:px-12 md:py-28">
+    <section className="relative overflow-hidden bg-[#0B132B] px-4 py-16 text-white md:px-12 md:py-28">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(199,173,120,0.12),transparent_28%),linear-gradient(120deg,rgba(47,104,114,0.12),transparent_45%)]" />
 
       <div className="relative mx-auto max-w-[1200px]">

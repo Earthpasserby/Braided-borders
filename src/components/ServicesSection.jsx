@@ -4,9 +4,9 @@ export default function ServicesSection() {
   return (
     <section
       id="services"
-      className="relative overflow-hidden bg-brand-ink px-4 py-16 text-white md:px-12 md:py-28"
+      className="relative overflow-hidden bg-[#0B132B] px-4 py-16 text-white md:px-12 md:py-28"
     >
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(231,201,166,0.16),transparent_24%),radial-gradient(circle_at_bottom_left,rgba(7,87,200,0.18),transparent_26%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(28,106,147,0.08),transparent_24%),radial-gradient(circle_at_bottom_left,rgba(20,79,115,0.12),transparent_28%)]" />
       <div className="relative mx-auto max-w-[1200px]">
         <div className="mb-14 grid gap-8 md:grid-cols-[0.72fr_1.28fr] md:items-end">
           <p className="text-mono text-[10px] uppercase tracking-[0.2em] text-brand-blue">
@@ -48,7 +48,7 @@ export default function ServicesSection() {
             ))}
           </div>
 
-          <div className="h-fit self-start rounded-[30px] border border-white/10 bg-[#071d28] p-5 md:p-6">
+          <div className="h-fit self-start rounded-[30px] border border-white/10 bg-[#0D1931] p-5 md:p-6">
             <p className="text-mono text-[10px] uppercase tracking-[0.2em] text-brand-blue">
               For founders and teams
             </p>

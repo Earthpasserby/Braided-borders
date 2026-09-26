@@ -10,7 +10,7 @@ function SocialIcon({ label }) {
 
 export default function ComingSoonPage({ onViewInfo }) {
   return (
-    <div className="min-h-screen bg-brand-ink text-white">
+    <div className="min-h-screen bg-[#0B132B] text-white">
       <header className="mx-auto flex w-full max-w-[1440px] items-center justify-between px-6 py-5 md:px-12">
         <div className="flex items-center gap-3">
           <img

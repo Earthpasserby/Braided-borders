@@ -2,10 +2,10 @@ export default function ChallengeSection() {
   return (
     <section
       id="challenge"
-      className="relative overflow-hidden bg-[#e9efee] px-4 py-16 md:px-12 md:py-28"
+      className="relative overflow-hidden bg-[#0B132B] px-4 py-16 md:px-12 md:py-28"
     >
       <div className="mx-auto max-w-[1200px]">
-        <div className="relative overflow-hidden rounded-[32px] bg-[#102f39] p-5 text-white shadow-[0_30px_70px_rgba(6,31,40,0.16)] sm:p-7 md:rounded-[40px] md:p-10">
+        <div className="relative overflow-hidden rounded-[32px] bg-[#0D1931] p-5 text-white shadow-[0_30px_70px_rgba(6,31,40,0.16)] sm:p-7 md:rounded-[40px] md:p-10">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(199,173,120,0.16),transparent_28%),linear-gradient(135deg,rgba(47,104,114,0.18),transparent_52%)]" />
 
           <div className="relative">
