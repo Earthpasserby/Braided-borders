@@ -68,7 +68,7 @@ export default function ComingSoonPage({ onViewInfo }) {
               </button>
 
               <a
-                href="mailto:hello@braidedborders.com"
+                href="mailto:hotline@braidedborders.com"
                 className="inline-flex items-center gap-3 rounded-full border border-white/25 bg-white/5 px-5 py-3 text-mono text-[10px] uppercase tracking-[0.16em] text-white/85 transition-colors hover:border-brand-blue hover:text-brand-blue"
               >
                 Get in touch <Mail size={16} />

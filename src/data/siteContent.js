@@ -100,7 +100,7 @@ export const navItems = [
 
 export const linkedInUrl =
   "https://www.linkedin.com/in/tundeosalako?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app";
-export const emailUrl = "mailto:hello@braidedborders.com";
+export const emailUrl = "mailto:hotline@braidedborders.com";
 
 export const socialLinks = [
   { label: "LinkedIn", href: linkedInUrl },

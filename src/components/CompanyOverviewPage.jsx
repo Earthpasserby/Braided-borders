@@ -275,7 +275,7 @@ export default function CompanyOverviewPage({ onBack }) {
             </div>
 
             <a
-              href="mailto:hello@braidedborders.com"
+              href="mailto:hotline@braidedborders.com"
               className="inline-flex items-center gap-3 text-mono text-[10px] uppercase tracking-[0.16em] text-brand-ink transition-colors hover:text-brand-blue"
             >
               Start a conversation <ArrowRight size={16} />

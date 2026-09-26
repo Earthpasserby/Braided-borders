@@ -36,13 +36,13 @@ export default function ContactSection() {
                   Reach out
                 </p>
                 <a
-                  href="mailto:hello@braidedborders.com"
+                  href="mailto:hotline@braidedborders.com"
                   className="mt-6 inline-flex items-center gap-3 text-mono text-xs uppercase tracking-[0.16em] text-white transition-colors hover:text-brand-sand"
                 >
                   Start a conversation <ArrowRight size={17} />
                 </a>
                 <p className="mt-8 border-t border-white/10 pt-4 text-sm leading-7 text-white/65">
-                  hello@braidedborders.com
+                  hotline@braidedborders.com
                 </p>
               </div>
             </div>

@@ -35,7 +35,7 @@ export default function HeroSection() {
             </p>
             <h1 className="hero-title text-[clamp(2.5rem,10vw,7rem)] leading-[0.9] tracking-[-0.05em] text-white md:leading-[0.82] md:tracking-[-0.06em]">
               De-risking Capital
-              <span className="mt-2 block text-brand-sand">
+              <span className="hero-italic mt-2 block text-brand-sand">
                 Across Africa and Middle East
               </span>
             </h1>
